@@ -24,12 +24,12 @@ author:
   # Biographic information
   avatar           : ""
   name             : "Yichen Li"
-  pronouns         : # example: "she/her"  
-  bio              : ""
-  location         : ""
-  employer         : ""
-  uri              : # URL
-  email            : ""
+  pronouns         : ""
+  bio              : "Ph.D. candidate in Operations Research and Scientific Computing."
+  location         : "Ann Arbor, MI"
+  employer         : "University of Michigan"
+  uri              : ""
+  email            : "yichli@umich.edu"
 
   # Academic websites
   academia         : # URL
