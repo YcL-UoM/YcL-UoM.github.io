@@ -28,22 +28,22 @@ author:
   bio              : "Ph.D. candidate in Operations Research and Scientific Computing."
   location         : "Ann Arbor, MI"
   employer         : "University of Michigan"
-  uri              : ""
+  uri              : "https://ioe.engin.umich.edu/people/li-yichen/"
   email            : "yichli@umich.edu"
 
   # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  academia         : "https://ioe.engin.umich.edu/people/li-yichen/"
+  arxiv            : ""
   googlescholar    : ""
-  inspire-hep      : # URL
-  impactstory      : # URL
+  inspire-hep      : ""
+  impactstory      : ""
   orcid            : ""
-  semantic         : # URL
-  ssrn             : # URL
+  semantic         : ""
+  ssrn             : ""
   pubmed           : ""
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  researchgate     : ""
+  scopus           : ""
+  zotero           : ""
 
 
   # Repositories and software development
