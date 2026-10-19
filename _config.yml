@@ -8,13 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Yichen Li"
 title_separator          : "-"
 name                     : &name "Yichen Li"
-description              : &description "Personal website of Yichen Li."
-url                      : "https://ycl-uom.github.io"
-baseurl                  : ""
+description              : &description "Personal website of Yichen Li."   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://ycl-uom.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YcL-UoM/YcL-UoM.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -22,7 +23,7 @@ repository               : "YcL-UoM/YcL-UoM.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : ""
+  avatar           : "portrait.png"
   name             : "Yichen Li"
   pronouns         : "he/him"
   bio              : "Ph.D. candidate in Operations Research and Scientific Computing."
@@ -32,18 +33,18 @@ author:
   email            : "yichli@umich.edu"
 
   # Academic websites
-  academia         : 
-  arxiv            : 
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : 
-  inspire-hep      : 
-  impactstory      : 
+  inspire-hep      : # URL
+  impactstory      : # URL
   orcid            : 
-  semantic         : 
-  ssrn             : 
+  semantic         : # URL
+  ssrn             : # URL
   pubmed           : 
-  researchgate     : 
-  scopus           : 
-  zotero           : 
+  researchgate     : # URL
+  scopus           : # URL
+  zotero           : # URL
 
 
   # Repositories and software development
@@ -65,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "yichen-li-a53126352"
+  linkedin         : "yichen-li-a53126352" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -83,12 +84,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: "Journal Manuscripts"
+  working:
+    title: "Working Papers"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -184,6 +183,9 @@ exclude:
   - gulpfile.js
   - LICENSE
   - local
+  - AGENTS.md
+  - docker-compose.yaml
+  - markdown_generator
   - log
   - node_modules
   - package.json*
