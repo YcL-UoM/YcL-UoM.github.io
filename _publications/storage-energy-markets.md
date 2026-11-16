@@ -4,6 +4,7 @@ collection: publications
 category: working
 permalink: /publication/storage-energy-markets/
 status: "Working paper"
+arxivurl: "https://arxiv.org/abs/2611.17739"
 excerpt: ""
 share: false
 ---
