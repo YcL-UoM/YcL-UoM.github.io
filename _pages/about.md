@@ -21,6 +21,7 @@ Through a student fellowship at **Lawrence Berkeley National Laboratory (LBNL)**
 
 ## Awards and Fellowships
 
+- 2027: [PhD Student Fellowship](https://ies.engin.umich.edu/our-work/ies-graduate-student-fellowship-program/), Institute for Energy Solutions (IES), University of Michigan
 - 2025–2026: Student Fellowship, LBNL
 - 2024: Graduate Fellowship, University of Michigan
 - 2022: Academic Excellence Scholarship, Tsinghua University
